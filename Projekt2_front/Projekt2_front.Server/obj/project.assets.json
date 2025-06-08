@@ -1953,11 +1953,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Faks\\3. godina\\PPPK\\Projekt\\Projekt2_front\\Projekt2_front.Server\\Projekt2_front.Server.csproj",
+      "projectUniqueName": "D:\\Faks\\3. godina\\PPPK\\Gene_Expression_project\\Projekt2_front\\Projekt2_front.Server\\Projekt2_front.Server.csproj",
       "projectName": "Projekt2_front.Server",
-      "projectPath": "D:\\Faks\\3. godina\\PPPK\\Projekt\\Projekt2_front\\Projekt2_front.Server\\Projekt2_front.Server.csproj",
+      "projectPath": "D:\\Faks\\3. godina\\PPPK\\Gene_Expression_project\\Projekt2_front\\Projekt2_front.Server\\Projekt2_front.Server.csproj",
       "packagesPath": "C:\\Users\\majap\\.nuget\\packages\\",
-      "outputPath": "D:\\Faks\\3. godina\\PPPK\\Projekt\\Projekt2_front\\Projekt2_front.Server\\obj\\",
+      "outputPath": "D:\\Faks\\3. godina\\PPPK\\Gene_Expression_project\\Projekt2_front\\Projekt2_front.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1979,8 +1979,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Faks\\3. godina\\PPPK\\Projekt\\Projekt2_front\\MinioMongoLib\\MinioMongoLib.csproj": {
-              "projectPath": "D:\\Faks\\3. godina\\PPPK\\Projekt\\Projekt2_front\\MinioMongoLib\\MinioMongoLib.csproj"
+            "D:\\Faks\\3. godina\\PPPK\\Gene_Expression_project\\Projekt2_front\\MinioMongoLib\\MinioMongoLib.csproj": {
+              "projectPath": "D:\\Faks\\3. godina\\PPPK\\Gene_Expression_project\\Projekt2_front\\MinioMongoLib\\MinioMongoLib.csproj"
             }
           }
         }

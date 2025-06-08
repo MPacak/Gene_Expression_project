@@ -23,13 +23,6 @@ namespace MinioMongoService.Service
             _minioService = minioService;
         }
 
-        private static readonly HashSet<string> CGAS_STING_GENES = new()
-        {
-            "C6orf150", "CCL5", "CXCL10", "TMEM173", "CXCL9",
-            "CXCL11", "NFKB1", "IKBKE", "IRF3", "TREX1",
-            "ATM", "IL6", "IL8"
-        };
-
         public async Task ParseAndInsertTSVFromMinIOAsync(string objectName)
         {
             MemoryStream memoryStream = await _minioService.GetObjectAsync(objectName);
@@ -38,8 +31,6 @@ namespace MinioMongoService.Service
                 throw new MemoryStreamException($"Failed to load {objectName} from MinIO.");
             }
 
-            Console.WriteLine($"Successfully loaded {objectName} into memory. Parsing...");
-            // List<PatientGeneExpression> patientData = ParseTSVFromMemory(memoryStream, objectName);
             List<PatientGeneExpression> patientData = ParseFromMemory.ParseTSVFromMemory(memoryStream, objectName);
 
             if (patientData.Count > 0)
@@ -51,64 +42,7 @@ namespace MinioMongoService.Service
                 throw new InvalidOperationException($"No valid patient records found in {objectName}.");
             }
         }
-     /*   private List<PatientGeneExpression> ParseTSVFromMemory(MemoryStream memoryStream, string cancerCohort)
-        {
-            List<PatientGeneExpression> patientRecords = new();
-            using StreamReader reader = new(memoryStream, Encoding.UTF8);
-
-            string? headerLine = reader.ReadLine();
-            if (headerLine == null) return patientRecords;
-
-            var headers = headerLine.Split('\t');
-            var patientIds = headers.Skip(1).ToList();
-
-            Dictionary<string, Dictionary<string, double>> patientData = new();
-
-            foreach (var patientId in patientIds)
-            {
-                if (patientId.StartsWith("TCGA-")) 
-                {
-                    patientData[patientId] = new Dictionary<string, double>();
-                }
-            }
-
-            while (!reader.EndOfStream)
-            {
-                var line = reader.ReadLine();
-                var columns = line?.Split('\t');
-
-              
-
-                if (columns == null || columns.Length != headers.Length)
-                    continue;
-
-                string geneName = columns[0];
-                if (!CGAS_STING_GENES.Contains(geneName)) 
-                    continue;
-
-                for (int i = 1; i < columns.Length; i++) 
-                {
-                    if (double.TryParse(columns[i], out double expressionValue) && patientData.ContainsKey(patientIds[i - 1]))
-                    {
-                        patientData[patientIds[i - 1]][geneName] = expressionValue;
-                    }
-                }
-
-              
-            }
-            foreach (var patientId in patientData.Keys)
-            {
-                patientRecords.Add(new PatientGeneExpression
-                {
-                    PatientId = patientId,
-                    CancerCohort = cancerCohort,
-                    GeneExpressions = patientData[patientId]
-                });
-            }
-
-            Console.WriteLine($"Parsed {patientRecords.Count} valid patient records.");
-            return patientRecords;
-        }*/
+    
         public async Task<List<PatientGeneExpression>> GetAllPatientsAsync()
         {
             return await _geneRepository.GetAllAsync();

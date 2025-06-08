@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2820u/83MoE=",
+  "dgSpecHash": "NA2dkWmVxNY=",
   "success": true,
-  "projectFilePath": "D:\\Faks\\3. godina\\PPPK\\Projekt\\Projekt2_front\\Projekt2_front.Server\\Projekt2_front.Server.csproj",
+  "projectFilePath": "D:\\Faks\\3. godina\\PPPK\\Gene_Expression_project\\Projekt2_front\\Projekt2_front.Server\\Projekt2_front.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\majap\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\majap\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

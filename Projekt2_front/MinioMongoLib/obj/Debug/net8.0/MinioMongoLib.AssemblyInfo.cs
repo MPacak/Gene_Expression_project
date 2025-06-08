@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MinioMongoLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4afca6ac99d0b878459e6761cfd306373a16344")]
 [assembly: System.Reflection.AssemblyProductAttribute("MinioMongoLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MinioMongoLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

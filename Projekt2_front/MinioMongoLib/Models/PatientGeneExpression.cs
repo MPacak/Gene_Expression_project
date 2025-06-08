@@ -23,10 +23,10 @@ namespace MinioMongoService.Models
         [BsonElement("gene_expressions")]
         public Dictionary<string, double> GeneExpressions { get; set; }
         [BsonElement("diseaseSpecificSurvival")]
-        public int? DSS { get; set; }  // DSS (1 - Survived, 0 - Not Survived)
+        public int? DSS { get; set; }  
 
         [BsonElement("overallSurvival")]
-        public int? OS { get; set; }  // OS (1 - Survived, 0 - Not Survived)
+        public int? OS { get; set; }  
 
         [BsonElement("clinicalStage")]
         public string ClinicalStage { get; set; }

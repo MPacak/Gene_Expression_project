@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "akj1z6/9uho=",
+  "dgSpecHash": "OdGcCCnihhE=",
   "success": true,
-  "projectFilePath": "D:\\Faks\\3. godina\\PPPK\\Projekt\\Projekt2_front\\MinioMongoLib\\MinioMongoLib.csproj",
+  "projectFilePath": "D:\\Faks\\3. godina\\PPPK\\Gene_Expression_project\\Projekt2_front\\MinioMongoLib\\MinioMongoLib.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\majap\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\majap\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

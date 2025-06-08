@@ -47,7 +47,6 @@ namespace MinioMongoAPI.Repository
         }
         public async Task UpdateOneAsync(string patientId, int? dss, int? os, string clinicalStage)
         {
-            //var filter = Builders<PatientGeneExpression>.Filter.Eq(p => p.PatientId, patientId);
             var filter = Builders<PatientGeneExpression>.Filter.Regex(p => p.PatientId, new BsonRegularExpression($"^{patientId}"));
             var updateDefinition = new List<UpdateDefinition<PatientGeneExpression>>();
 
@@ -59,7 +58,7 @@ namespace MinioMongoAPI.Repository
             var result = await _geneCollection.UpdateOneAsync(filter, update);
             if (result.MatchedCount == 0)
             {
-                Console.WriteLine($"⚠ No match found for Patient ID {patientId}. Data not updated.");
+                Console.WriteLine($"No match found for Patient ID {patientId}. Data not updated.");
             }
           
         }
