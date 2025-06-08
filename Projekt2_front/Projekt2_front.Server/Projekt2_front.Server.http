@@ -1,0 +1,6 @@
+@Projekt2_front.Server_HostAddress = http://localhost:5116
+
+GET {{Projekt2_front.Server_HostAddress}}/api/visualization/
+Accept: application/json
+
+###

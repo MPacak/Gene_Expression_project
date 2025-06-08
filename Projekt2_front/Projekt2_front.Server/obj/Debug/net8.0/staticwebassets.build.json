@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "OGYudlWC2gT4dX1WhDePR8E3OXSEEAUhNSWsmfkGjxk=",
+  "Source": "Projekt2_front.Server",
+  "BasePath": "_content/Projekt2_front.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\Projekt2_front\\projekt2_front.client\\projekt2_front.client.esproj",
+      "Version": 2,
+      "Source": "projekt2_front.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
