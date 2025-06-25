@@ -10,3 +10,16 @@ D:\Faks\3. godina\PPPK\Projekt\Projekt2_front\MinioMongoLib\obj\Debug\net8.0\Min
 D:\Faks\3. godina\PPPK\Projekt\Projekt2_front\MinioMongoLib\obj\Debug\net8.0\refint\MinioMongoLib.dll
 D:\Faks\3. godina\PPPK\Projekt\Projekt2_front\MinioMongoLib\obj\Debug\net8.0\MinioMongoLib.pdb
 D:\Faks\3. godina\PPPK\Projekt\Projekt2_front\MinioMongoLib\obj\Debug\net8.0\ref\MinioMongoLib.dll
+D:\Faks\3. godina\PPPK\Gene_Expression_project\Projekt2_front\MinioMongoLib\bin\Debug\net8.0\MinioMongoLib.deps.json
+D:\Faks\3. godina\PPPK\Gene_Expression_project\Projekt2_front\MinioMongoLib\bin\Debug\net8.0\MinioMongoLib.dll
+D:\Faks\3. godina\PPPK\Gene_Expression_project\Projekt2_front\MinioMongoLib\bin\Debug\net8.0\MinioMongoLib.pdb
+D:\Faks\3. godina\PPPK\Gene_Expression_project\Projekt2_front\MinioMongoLib\obj\Debug\net8.0\MinioMongoLib.csproj.AssemblyReference.cache
+D:\Faks\3. godina\PPPK\Gene_Expression_project\Projekt2_front\MinioMongoLib\obj\Debug\net8.0\MinioMongoLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\Faks\3. godina\PPPK\Gene_Expression_project\Projekt2_front\MinioMongoLib\obj\Debug\net8.0\MinioMongoLib.AssemblyInfoInputs.cache
+D:\Faks\3. godina\PPPK\Gene_Expression_project\Projekt2_front\MinioMongoLib\obj\Debug\net8.0\MinioMongoLib.AssemblyInfo.cs
+D:\Faks\3. godina\PPPK\Gene_Expression_project\Projekt2_front\MinioMongoLib\obj\Debug\net8.0\MinioMongoLib.csproj.CoreCompileInputs.cache
+D:\Faks\3. godina\PPPK\Gene_Expression_project\Projekt2_front\MinioMongoLib\obj\Debug\net8.0\MinioMongoLib.sourcelink.json
+D:\Faks\3. godina\PPPK\Gene_Expression_project\Projekt2_front\MinioMongoLib\obj\Debug\net8.0\MinioMongoLib.dll
+D:\Faks\3. godina\PPPK\Gene_Expression_project\Projekt2_front\MinioMongoLib\obj\Debug\net8.0\refint\MinioMongoLib.dll
+D:\Faks\3. godina\PPPK\Gene_Expression_project\Projekt2_front\MinioMongoLib\obj\Debug\net8.0\MinioMongoLib.pdb
+D:\Faks\3. godina\PPPK\Gene_Expression_project\Projekt2_front\MinioMongoLib\obj\Debug\net8.0\ref\MinioMongoLib.dll

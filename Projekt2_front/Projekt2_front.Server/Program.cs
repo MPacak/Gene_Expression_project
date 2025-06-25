@@ -25,7 +25,7 @@ var app = builder.Build();
 var kafkaConsumer = app.Services.GetRequiredService<KafkaConsumerService>();
 var cts = new CancellationTokenSource();
 //bez await radi u pozadini i slusa a sa await moram cekati dok ne cuje i odradi. 
-Task.Run(() => kafkaConsumer.StartListening(cts.Token));
+kafkaConsumer.StartListening(cts.Token);
 
 Console.CancelKeyPress += (sender, eventArgs) =>
 {

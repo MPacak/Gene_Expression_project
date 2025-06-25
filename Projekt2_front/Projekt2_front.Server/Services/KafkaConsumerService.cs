@@ -23,8 +23,7 @@ public class KafkaConsumerService
         {
             BootstrapServers = KAFKA_SERVER,
             GroupId = GROUP_ID,
-           AutoOffsetReset = AutoOffsetReset.Earliest
-           // EnableAutoCommit = false
+           AutoOffsetReset = AutoOffsetReset.Earliest 
         };
 
         _consumer = new ConsumerBuilder<string, string>(config).Build();
@@ -71,7 +70,8 @@ public class KafkaConsumerService
                     }
                     else if (consumeResult.Topic == "upload_complete")
                     {
-                        await ProcessUploadCompleteMessage(consumeResult.Value);
+
+                        await ProcessUploadCompleteMessage(consumeResult.Message.Value);
                     }
                 }
             }

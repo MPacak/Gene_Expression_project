@@ -23,7 +23,7 @@ public class UploadMinioController : ControllerBase
     [HttpPost("start")]
     public async Task<IActionResult> StartUpload()
     {
-        string folderPath = @"D:\Faks\3. godina\PPPK\Python\extracted_tsv";
+          string folderPath = @"D:\Faks\3. godina\PPPK\Python\extracted_tsv";
         var tsvFiles = Directory.GetFiles(folderPath, "*.tsv");
 
         List<string> uploadedFiles = new();
